@@ -37,24 +37,29 @@ samples, guidance on mobile development, and a full API reference.
  - `brew install watchman`
  - `sudo npm install -g react-native-cli`
 
- ## Team
-
-<table><tbody><tr><td align="center" valign="top" width="11%">
+ ## Dev Team
+ 
+<table><tbody><tr>
+<td align="center" valign="top" width="11%">
 <a href="https://github.com/badjio">
-<img src="https://avatars2.githubusercontent.com/u/15873766?s=400&v=4" width="75" height="75"><br />
-Moh Badjah
+<img alt="Backend Developer" src="https://avatars2.githubusercontent.com/u/15873766?s=400&v=4" width="100" height="100">
+<br />
+<br><i>Moh Badjah</i><br/>
 </a>
 </td>
 <td align="center" valign="top" width="11%">
 <a href="https://github.com/na6im">
-<img src="https://avatars1.githubusercontent.com/u/38627023?s=400&v=4" width="75" height="75"><br />
-Nassim Amokrane
+<img alt="Web Developer" src="https://avatars1.githubusercontent.com/u/38627023?s=400&v=4" width="100" height="100">
+<br />
+<br><i>Nassim Amokrane</i><br/>
 </a>
 </td><td align="center" valign="top" width="11%">
 <a href="https://github.com/MedRedha">
-<img src="https://github.com/medredha.png?s=75" width="75" height="75"><br />
-Med Redha
+<img alt="Mobile Developer" src="https://github.com/medredha.png?s=75" width="100" height="100">
+<br />
+<br><i>Med Redha</i><br/>
 </a>
-</td></tr></tbody></table>
+</td>
+</tr></tbody></table>
 
 ###### [WUUD®](http://wuud.com/)
