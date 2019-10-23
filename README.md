@@ -40,10 +40,8 @@ samples, guidance on mobile development, and a full API reference.
  - `sudo npm install -g react-native-cli`
 
  ## Dev Team
- 
-
 	
-	<table>
+  <table>
 		<tbody>
 			<tr>
 				<td align="center" valign="top" width="11%">
@@ -54,7 +52,7 @@ samples, guidance on mobile development, and a full API reference.
 								<i>Moh Badjah</i>
 								<br/>
 							</a>
-						</td>
+          </td>
 						<td align="center" valign="top" width="11%">
 							<a href="https://github.com/na6im">
 								<img alt="Web Developer" src="https://avatars1.githubusercontent.com/u/38627023?s=400&v=4" style="border-radius: 50px" width="100" height="100">
@@ -70,11 +68,11 @@ samples, guidance on mobile development, and a full API reference.
 											<br />
 											<br>
 												<i>Med Redha</i>
-												<br/>
-											</a>
-										</td>
-									</tr>
-								</tbody>
-							</table>
+                      <br/>
+                  </a>  
+                </td>
+        </tr>
+      </tbody>
+    </table>
 
 ###### [WUUD®](http://wuud.com/)
