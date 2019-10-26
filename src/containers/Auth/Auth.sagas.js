@@ -3,7 +3,6 @@ import {EMAIL_CHANGE} from './Auth.types';
 import {emailChanged} from './Auth.actions';
 
 export function* emailChange() {
-  console.log('saga');
   yield put(emailChanged());
 }
 
