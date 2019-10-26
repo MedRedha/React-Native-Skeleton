@@ -1,4 +1,4 @@
-import {EMAIL_CHANGED} from './Auth.types';
+import {EMAIL_CHANGED, EMAIL_CHANGE} from './Auth.types';
 
 const INITIAL_STATE = {
   AccessToken: [],

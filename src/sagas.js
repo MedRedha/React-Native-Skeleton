@@ -1,10 +1,9 @@
-import {all} from 'redux-saga/effects';
-//import { fork } from 'redux-saga/effects';
-
-//<-- IMPORT MODULE SAGA -->
+import {all, fork} from 'redux-saga/effects';
+import {watchAuth} from './containers/Auth/Auth.sagas';
 
 export default function* rootSaga() {
   yield all([
+    fork(watchAuth),
     //<-- INJECT MODULE SAGA -->
   ]);
 }
