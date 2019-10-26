@@ -1,10 +1,11 @@
-import {EMAIL_CHANGED} from './Auth.types';
+import {EMAIL_CHANGED, EMAIL_CHANGE} from './Auth.types';
 
 const INITIAL_STATE = {
   AccessToken: [],
 };
 
 export default (state = INITIAL_STATE, action) => {
+  console.log(action);
   switch (action.type) {
     case EMAIL_CHANGED:
       return {...state, AccessToken: action.payload};

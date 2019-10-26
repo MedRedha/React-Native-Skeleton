@@ -6,12 +6,13 @@
  * @flow
  */
 
-import React from 'react';
+import React, {useEffect} from 'react';
 import {View, StyleSheet, Text} from 'react-native';
-import {injectIntl} from 'react-intl';
 
 export const Auth: () => React$Node = props => {
-  console.log(props);
+  useEffect(() => {
+    props.changeEmail();
+  }, []);
   return (
     <View>
       <Text>Text</Text>
