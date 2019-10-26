@@ -1,10 +1,10 @@
 import {combineReducers} from 'redux';
-import localChange from './locales/reducer';
+import AuthReducer from '../src/containers/Auth/Auth.reducer';
 //<-- IMPORT MODULE REDUCER -->
 
 export default function createReducer() {
   return combineReducers({
-    locale: localChange,
+    AuthState: AuthReducer,
     //<-- INJECT MODULE REDUCER -->
   });
 }
