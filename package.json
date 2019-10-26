@@ -10,8 +10,13 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "ramda": "^0.26.1",
     "react": "16.11.0",
-    "react-native": "0.61.2"
+    "react-intl": "^2.4.0",
+    "react-native": "0.61.2",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4",
+    "redux-saga": "^1.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
