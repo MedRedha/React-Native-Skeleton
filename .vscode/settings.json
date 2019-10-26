@@ -1,4 +1,8 @@
 {
-    "files.autoSave": "afterDelay",
-    "local-history.enabled": 0
+    "local-history.maxDisplay": 0,
+    "gitlens.views.fileHistory.enabled": false,
+    "gitlens.views.fileHistory.avatars": false,
+    "gitlens.advanced.fileHistoryFollowsRenames": false,
+    "workbench.commandPalette.history": 0,
+    "local-history.daysLimit": 0
 }
