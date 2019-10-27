@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react';
 import {View, Text} from 'react-native';
+import I18n from '../../translations/i18n';
 
 export const Auth: () => React$Node = props => {
   useEffect(() => {
@@ -7,7 +8,7 @@ export const Auth: () => React$Node = props => {
   }, [props]);
   return (
     <View>
-      <Text>Text</Text>
+      <Text>{I18n.t('hello')}</Text>
     </View>
   );
 };
