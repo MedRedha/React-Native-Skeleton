@@ -8,6 +8,9 @@ import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.soloader.SoLoader;
 import java.lang.reflect.InvocationTargetException;
+import com.facebook.react.ReactActivityDelegate;
+import com.facebook.react.ReactRootView;
+import com.swmansion.gesturehandler.react.RNGestureHandlerEnabledRootView;
 import java.util.List;
 
 public class MainApplication extends Application implements ReactApplication {
@@ -34,6 +37,7 @@ public class MainApplication extends Application implements ReactApplication {
         }
       };
 
+
   @Override
   public ReactNativeHost getReactNativeHost() {
     return mReactNativeHost;
@@ -46,6 +50,15 @@ public class MainApplication extends Application implements ReactApplication {
     initializeFlipper(this); // Remove this line if you don't want Flipper enabled
   }
 
+      @Override
+      protected ReactActivityDelegate createReactActivityDelegate() {
+        return new ReactActivityDelegate(this, getMainComponentName()) {
+          @Override
+          protected ReactRootView createRootView() {
+           return new RNGestureHandlerEnabledRootView(MainActivity.this);
+          }
+        };
+      }
   /**
    * Loads Flipper in React Native templates.
    *
