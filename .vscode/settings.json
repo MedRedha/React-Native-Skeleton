@@ -1,7 +1,126 @@
 {
+    "editor.cursorBlinking": "smooth",
+    "files.autoSave": "afterDelay",
+    "editor.minimap.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "window.titleBarStyle": "custom",
+    "workbench.colorTheme": "Material Theme Ocean",
+    "workbench.colorCustomizations": {
+        "[Material Theme Ocean]": {
+            "statusBar.debuggingBackground": "#be0d60",
+            "statusBar.debuggingForeground": "#000000",
+            "statusBar.background": "#000000",
+            "statusBar.foreground": "#00ffff",
+            "sideBarTitle.foreground": "#0ddaad",
+            "sideBar.foreground": "#909299",
+            "activityBar.foreground": "#0ddaad",
+            "activityBarBadge.background": "#ff008c",
+            "activityBar.inactiveForeground": "#2e3638"
+        }
+    },
+    "dart.previewFlutterUiGuides": true,
+    "workbench.tree.renderIndentGuides": "always",
+    "material-icon-theme.activeIconPack": "react",
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.useTabs": true,
+    "prettier.singleQuote": true,
+    "prettier.jsxSingleQuote": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 13,
+    "dart.previewFlutterUiGuidesCustomTracking": true,
+    "editor.fontWeight": "normal",
+    "editor.fontLigatures": true,
+    "peacock.favoriteColors": [
+        {
+            "name": "Angular Red",
+            "value": "#b52e31"
+        },
+        {
+            "name": "Auth0 Orange",
+            "value": "#eb5424"
+        },
+        {
+            "name": "Azure Blue",
+            "value": "#007fff"
+        },
+        {
+            "name": "C# Purple",
+            "value": "#68217A"
+        },
+        {
+            "name": "Gatsby Purple",
+            "value": "#639"
+        },
+        {
+            "name": "Go Cyan",
+            "value": "#5dc9e2"
+        },
+        {
+            "name": "Java Blue-Gray",
+            "value": "#557c9b"
+        },
+        {
+            "name": "JavaScript Yellow",
+            "value": "#f9e64f"
+        },
+        {
+            "name": "Mandalorian Blue",
+            "value": "#1857a4"
+        },
+        {
+            "name": "Node Green",
+            "value": "#215732"
+        },
+        {
+            "name": "React Blue",
+            "value": "#00b3e6"
+        },
+        {
+            "name": "Something Different",
+            "value": "#832561"
+        },
+        {
+            "name": "Vue Green",
+            "value": "#42b883"
+        }
+    ],
+    "editor.matchBrackets": false,
+    "sync.gist": "d5ceacd6408cbaaddcc654a3ecc22653",
+    "cSpell.userWords": [
+        "Baloo",
+        "Bhaijaan",
+        "Lato",
+        "Schyler",
+        "cupertino",
+        "mobile",
+        "peecco"
+    ],
+    "vsicons.dontShowNewVersionMessage": true,
+    "team.showWelcomeMessage": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "dart.checkForSdkUpdates": false,
+    "peacock.affectAccentBorders": true,
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
-    "cSpell.words": [
-        "WUUD"
-    ]
+    "dart.flutterSdkPath": "/Users/medredha/Documents/Peecco/Tools/flutter",
+    "flow.useNPMPackageFlow": true,
+    "local-history.enabled": 0,
+    "gitlens.views.fileHistory.enabled": false,
+    "gitlens.views.fileHistory.avatars": false,
+    "gitlens.advanced.fileHistoryFollowsRenames": false,
+    "local-history.daysLimit": 0,
+    "workbench.commandPalette.history": 0,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.history": true,
+        ".history": true
+    },
+    "explorerExclude.backup": null,
 }
